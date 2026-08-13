@@ -1,0 +1,141 @@
+h1{
+    font-style:italic;
+    text-align: left;
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content:center;
+    font-size: larger;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 30px;
+    margin-bottom: 10px;
+
+}
+main{
+    padding: 30px;
+    
+}
+
+
+.pree{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(253, 225, 230);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0%;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+}
+
+.poster{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+
+.movie{
+    display: flex;
+    gap: 40px;
+}   
+
+.about{
+    background-color: antiquewhite;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border: 2px dotted;
+    padding: 10px;
+}
+
+.facts{
+    background-color: antiquewhite;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    border: 2px dotted;
+    padding: 10px;
+
+
+}
+
+.facts img{
+    height: auto;
+    width: 200px;
+}
+
+
+.facts-content{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+
+.facts-text{
+    flex: 1;
+}
+
+.img2{
+    width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+
+
+.footer2{
+    font-size: large;
+    font-family: fantasy;
+    border-radius: 10px ;
+    border: 3px solid;
+    display: inline-block;
+    padding: 10px;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    display:block;
+    width: fit-content;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.table{
+    margin-left: auto;
+    border-collapse: collapse;
+    margin-right: 0%;
+    height: 400px;
+}
+
+th, td{
+    border: 3px dotted rgb(198, 90, 108);
+    padding: 10px 20px;
+
+}
+
+.footer-content{
+    display: flex;
+}
+
+.footer-img{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+

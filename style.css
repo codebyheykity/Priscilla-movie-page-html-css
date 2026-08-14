@@ -285,3 +285,14 @@ th, td{
         text-align: center;
     }
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    max-width: 100%;
+}

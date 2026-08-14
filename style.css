@@ -141,72 +141,147 @@ th, td{
 
 @media (max-width: 768px) {
 
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     main {
+        width: 100%;
         padding: 15px;
     }
 
+    /* NAVBAR */
     nav {
-        margin: 10px;
+        width: calc(100% - 20px);
+        margin: 10px auto;
+        padding: 10px;
         gap: 10px;
         flex-wrap: wrap;
+        font-size: 15px;
     }
 
+    nav a {
+        white-space: nowrap;
+    }
+
+    /* MOVIE */
     .movie {
+        width: 100%;
+        display: flex;
         flex-direction: column;
         gap: 20px;
     }
 
     .poster {
-        width: 70%;
+        width: 80%;
         max-width: 300px;
+        margin: auto;
     }
 
     .pree {
+        width: 100%;
+        max-width: 100%;
         font-size: 14px;
-        padding: 15px;
         white-space: pre-wrap;
+        overflow-wrap: break-word;
+        word-break: normal;
+        padding: 15px;
+    }
+
+    .line {
+        width: 100%;
+        overflow: hidden;
+        font-size: 10px;
+    }
+
+    /* ABOUT */
+    .about {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .about pre {
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    /* FACTS */
+    .facts {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
     }
 
     .facts-content {
+        width: 100%;
+        display: flex;
         flex-direction: column;
+        gap: 20px;
     }
 
     .facts img,
     .img2 {
         width: 70%;
         max-width: 250px;
+        height: auto;
         margin: auto;
     }
 
-    .about pre {
-        white-space: pre-wrap;
-        font-size: 14px;
-    }
-
+    /* FOOTER */
     .footer-content {
+        width: 100%;
+        display: flex;
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
 
+    .footer2 {
+        max-width: 100%;
+    }
+
     .footer-img {
         width: 70%;
         max-width: 250px;
+        height: auto;
+        margin: auto;
     }
 
+    /* CONTACT */
     .contact {
+        width: 100%;
+        max-width: 100%;
         margin: auto;
-        width: fit-content;
-        max-width: 90%;
+        padding: 10px;
         overflow-x: auto;
     }
 
     .table {
+        width: 100%;
         height: auto;
-        font-size: 14px;
+        margin: 0;
+        border-collapse: collapse;
     }
 
-    th, td {
+    th,
+    td {
         padding: 8px;
+        font-size: 13px;
+        word-break: break-word;
+    }
+
+    /* BOTTOM */
+    .end {
+        width: 100%;
+        text-align: center;
     }
 }

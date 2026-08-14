@@ -296,3 +296,37 @@ pre {
     overflow-wrap: anywhere;
     max-width: 100%;
 }
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    main,
+    header,
+    footer {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    nav {
+        max-width: 100%;
+    }
+
+    .movie,
+    .facts,
+    .facts-content,
+    .footer-content,
+    .contact {
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    table {
+        max-width: 100%;
+    }
+}
